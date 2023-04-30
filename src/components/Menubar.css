@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  height: 68px;
+  padding-right: 30px;
+  background-color: transparent;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 3;
+}
+.header:hover {
+  background-color: hsla(0, 63%, 45%, 0.2);
+  border-radius: 0px 20px 20px 0px;
+}
+.menu-link {
+  width: 8%;
+  margin-right: 30px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+.menu-link:hover {
+  font-size: 20px;
+  font-weight: 800;
+}
+.menu-link:active {
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,37 @@
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h3 {
+  color: red !important;
+}
+.work1 {
+  display: flex;
+  margin: 20px;
+  padding: 30px;
+}
+.img {
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+  background-image: url("../../public/laptop.jpg");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+.work-description {
+  width: 50%;
+  height: 400px;
+  padding: 50px 0px 0px 100px;
+  text-align: start;
+}
+h4 {
+  margin-bottom: 15px !important;
+}
+.btn-goto {
+  margin: 15px;
+  background-color: aquamarine !important;
+  height: 50px;
+  width: 150px;
+}
